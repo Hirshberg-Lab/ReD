@@ -1,9 +1,9 @@
 # Resetting Improves the Fixed-Budget Inference of Large Language Models — code and data
 
 This folder reproduces every data figure and table of the paper by S. Meir, T. D. Keidar, N. Levi, S. Reuveni and
-B. Hirshberg. It contains the raw results of the LLM runs (which attempts were correct, and how many tokens each used)
-and the scripts that turn them into the figures and tables. Reproducing the figures and tables needs no API key and no
-network access.
+B. Hirshberg (preprint: [arXiv:2601.21522](https://arxiv.org/abs/2601.21522)). It contains the raw results of the LLM
+runs (which attempts were correct, and how many tokens each used) and the scripts that turn them into the figures and
+tables. Reproducing the figures and tables needs no API key and no network access.
 
 **Reset-and-Discard (ReD)** spends a fixed budget of attempts across a pool of problems in rounds: in each round every
 unsolved problem gets one attempt (τ = 1); a solved problem is discarded, an unsolved one is moved to the back of the
