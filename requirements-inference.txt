@@ -1,0 +1,7 @@
+# Re-generating the raw data (inference/): calls the Groq API (needs GROQ_API_KEY in .env).
+groq
+python-dotenv
+tqdm
+numpy
+datasets      # GSM8K and MMLU-Pro (Hugging Face)
+human-eval    # HumanEval problems and the official unit-test checker (https://github.com/openai/human-eval)
